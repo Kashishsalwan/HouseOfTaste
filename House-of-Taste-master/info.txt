@@ -1,0 +1,154 @@
+<!--Start of profiles=======-->
+
+<h1 class="issues">Facing problems or having doubts?<br>
+    Don't hesitate just contact any of our
+    Experts.<br>They will feel happy by serving you !</h1>
+
+    <div class="profiles">
+
+        <div class="daksh">
+            <div class="daksh-pic"></div>
+            <div class="daksh-details">
+                <h2>Mr Daksh Loomba</h2>
+                <h3>CEO & Founder</h3>
+                <p>Mr Daksh is the CEO and Founder
+                    of House Of Taste. He is a well Qualified Chef and all cooking
+                    department is under him. So if you have any new idea for food dishes 
+                    which you want to be available at our place in future or have 
+                    any issues with food quality feel free to call Mr Daksh. 
+                    He will be Happy Serving You.  
+                </p><br>
+                <h4>Email: daksh1110.cse19@chitkara.edu.in</h4>
+                <h4>Contact number: 7508430***</h4>
+            </div>
+        </div>
+
+        <div class="aditi">
+            <div class="aditi-pic"></div>
+            <div class="aditi-details">
+                <h2>Ms Aditi Vashisht</h2>
+                <h3>CEO & Founder</h3>
+                <p>Ms Aditi is the CEO and Founder
+                    of House Of Taste. She focuses on hiring/firing employees,
+                    training programs,etc. If you have any issue regarding staff 
+                    members behaviour or anything like that you can freely contact her.
+                    She will make sure that your problem will be solved.  
+                </p><br><br>
+                <h4>Email: aditi1108.cse19@chitkara.edu.in</h4>
+                <h4>Contact number: 9888058***</h4>
+            </div>
+        </div>
+
+        <div class="kashish">
+            <div class="kashish-pic"></div>
+            <div class="kashish-details">
+                <h2>Ms Kashish Salwan</h2>
+                <h3>CEO & Founder</h3>
+                <p>Ms Kashish is the CEO and Founder of House Of Taste. She is also 
+                    the head of Quality Control Department.
+                    If you have any issues regarding Quality of food or any hygiene 
+                    problems you are free to contact Ms Kashish. Your feedbacks are valuable
+                    for us. She will be happy to serve you.  
+                </p><br><br>
+                <h4>Email: kashish1104.cse19@chitkara.edu.in</h4>
+                <h4>Contact number: 9306376***</h4>
+            </div>
+        </div>
+
+        <div class="anmol">
+            <div class="anmol-pic"></div>
+            <div class="anmol-details">
+                <h2>Mr Anmol Vats</h2>
+                <h3>CEO & Founder</h3>
+                <p>Mr Anmol is the CEO and Founder
+                    of House Of Taste. He is an event organizer. He
+                    plans and coordinates every single detail of an event.
+                    If you have any special demands for upcoming events or
+                    have any idea or offer you can contact him.
+                    He will definitely listen to you and your ideas and 
+                    will work accordingly.    
+                </p><br>
+                <h4>Email: anmol1107.cse19@chitkara.edu.in</h4>
+                <h4>Contact number: 9878001***</h4>
+            </div>
+        </div>
+    </div>
+
+<!--End of profiles=======-->
+
+css
+
+
+/*<!--Start of profiles=======-->*/
+
+.issues{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-weight: 500;
+}
+
+.profiles{
+    background: rgb(201,118,29);
+background: linear-gradient(0deg, rgba(201,118,29,1) 0%, rgba(34,31,31,1) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.daksh-pic{
+    background: url('daksh1.jpeg');
+    width: 250px;
+    height: 250px;
+}
+
+.aditi-pic{
+    background: url('panda1.jpeg');
+    width: 250px;
+    height: 250px;
+}
+
+.kashish-pic{
+    background: url('kash.jpeg');
+    width: 250px;
+    height: 250px;
+}
+
+.anmol-pic{
+    background: url('anmol.jpg');
+    width: 250px;
+    height: 250px;
+}
+
+.daksh-details p, .aditi-details p, .kashish-details p, .anmol-details p{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-family: 'Pangolin', cursive;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.daksh-details h4, .aditi-details h4, .kashish-details h4, .anmol-details h4{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-family: 'Pangolin', cursive;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.daksh-details h2, .aditi-details h2, .kashish-details h2, .anmol-details h2{
+    font-family: 'Lemonada', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.daksh-details h3, .aditi-details h3, .kashish-details h3, .anmol-details h3{
+    font-family: 'Lemonada', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*<!--Start of profiles=======-->*/

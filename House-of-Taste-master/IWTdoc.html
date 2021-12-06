@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+<head>
+    <link rel="stylesheet" href="iwtdoc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <script>
+function Form(){ alert("Thanks For Submission")}
+</script>
+</head>
+
+
+<body>
+<fieldset>
+<legend>RESERVATION FORM</legend>
+<form>
+<label for="fname" class="fname">Full-Name:</label>
+<input type="text" id="fname"  placeholder="First-Name" >
+<input type="text" id="fname" placeholder="Last-Name"><br><br>
+<label for="phone" class="p-n">Phone-Number:</label>
+<input type="phone" id="phone" placeholder="12345-67890" style="width:150px" name="phone" maxlength="10"><br><br>
+<label for="person" class="t-r">Table Reservation:</label>
+<select id="person"><option>YES</option><option>NO</option></select><br><br>
+<label for="table" class="r-t">Reservation Type:</label>
+<select id="table"><option>Deluxe Table</option><option>Round Table</option>
+<option>Square Table</option><option>Rectangular Table</option></select><br><br>
+<label for="date" class="date">Date:</label>
+<th><input type="date" id="date"><br><br>
+<label for="time" class="time">Time&#9200:</label>
+<input type="Time" id="time"><br><br>
+<label for="email" class="email">Email:</label>
+<input type="email" id="email"  placeholder="ex:mark@example.com"style="width:250px"><br><br>
+<input type="button" class="solo" onclick= "Form()" value= "Submit">
+</form>
+</fieldset>
+
+</body>
+</html>

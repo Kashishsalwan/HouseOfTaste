@@ -1,0 +1,1102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.leftside ul li{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    width: 10%;
+    height: 36px;
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    border: 3px solid black;
+    border-radius: 400px;
+    text-align: center;
+    background-color: rgb(48, 5, 5);
+}
+
+.leftside ul li:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+.right-side ul li{
+    font-family: 'Fredoka One', cursive;
+    list-style: none;
+    color: white;
+    width: 15%;
+    height: 30px;
+    padding: 1.2px;
+    text-align: center;
+    margin-left: 85%;
+    border: 3px solid black;
+    border-radius: 400px;
+    background-color: rgb(48, 5, 5);
+}
+
+.right-side ul li:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+.container{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), 
+    url('bg1.jpg')center/cover no-repeat fixed;
+    margin-top: auto;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.bt{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 5px;
+    background-color: orange;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid orange;
+    font-weight: bold;
+}
+.bt:hover{
+    background:white;
+    color: rgb(221, 149, 15);
+}
+.pulsate{
+    animation: pulsate 3s ease-in-out;
+    animation-iteration-count: infinite;
+    color: #000;
+}
+
+@-webkit-keyframes pulsate{
+    0%{
+        opacity: 0.3;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.3;
+    }
+}
+
+.about-us{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Rowdies', cursive;
+    padding-top: 10px;
+}
+
+.para1::first-letter{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 5px;
+    text-transform: uppercase;
+}
+.para1{
+    font-family: 'Cedarville Cursive', cursive;
+    padding-bottom: 0.5cm;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: medium;
+    text-align: center;
+    height: auto;
+    box-sizing: content-box;;
+}
+
+#about{
+    background-color: rgba(177, 148, 148, 0.3);
+}
+
+
+/*<!---Higlight section----======>*/
+
+#hglt{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+    padding: 2px;
+}
+
+.vegan{
+    width: 320px;
+    height: 280px;
+    margin: 10px;
+    background-image: url(vegansre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vegan{
+    transition: transform 0.4s;
+}
+.vegan:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.vegan h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    text-align: left;
+    padding-top: 79px;
+    color: white;
+    font-weight: bold;
+}
+.vegan p{
+    color: rgb(255, 208, 0);
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.order p{
+    color: black;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+.order h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    text-align: left;
+    padding-top: 79px;
+    color: rgb(182, 1, 1);
+    font-weight: bold;
+}
+.order{
+    width: 320px;
+    height: 280px;
+    margin: 10px;
+    background-image: url(ordersre.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.order{
+    transition: transform 0.4s;
+}
+.order:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+
+.deals{
+    width: 320px;
+    height: 280px;
+    margin: 10px;
+    padding-left: 0.2cm;
+    background-image: url(dealsre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deals h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 44px;
+    text-align: left;
+    padding-top: 79px;
+    color: black;
+    font-weight: bold;
+}
+
+.deals{
+    transition: transform 0.4s;
+}
+.deals:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+/*<!---End of Higlight section----======>*/
+
+/*<!-----Start of our menu===>*/
+
+
+.menu-img{
+    min-height: 30vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), 
+    url(ourmenu.jpg)center/cover fixed no-repeat;
+    
+    
+}
+.our-menu{
+    width: 90%;
+    margin-bottom: 2cm;
+    background: orange;
+}
+.menu-text p{
+    font-family: 'Lora', serif;
+    min-height: 30vh;
+    align-items: center;
+    columns: black;
+    width: 90%;
+    margin: 20px 0;
+    line-height: 2;
+}
+.menu-text h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+
+.menu-text a{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 200px;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    font-weight: bold;
+    background: black;
+    color: orange;
+}
+
+.menu-text a:hover{
+    background: white;
+    color: orange;
+}
+
+@media screen and (min-width: 776px)
+{
+    .menu{
+        display: flex;
+    }
+    .menu-text{
+        flex: 0 0 30%;
+    }
+    .menu-img{
+        flex:0 0 70%;
+        clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    }
+    .menu{
+        background: orange;
+    }
+}
+
+/*<!-----End of our menu===>*/
+
+/*<!---Start of Ranges-->*/
+
+#ranges{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), 
+    url(ranges.jpg)center/cover fixed no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+}
+
+.range-pizza img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2cm;
+}
+
+.range-drinks img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2cm;
+}
+
+.range-cheese img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2cm;
+}
+
+
+
+.range-desert img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2cm;
+}
+
+
+.range-pizza h2{
+    text-align: center;
+    color: white;
+    font-family: 'Rowdies', cursive;
+}
+
+.range-drinks h2{
+    text-align: center;
+    color: white;
+    font-family: 'Rowdies', cursive;
+}
+
+.range-cheese h2{
+    font-family: 'Rowdies', cursive;
+    color: white;
+    text-align: center;
+}
+
+
+
+.range-desert h2{
+    text-align: center;
+    color: white;
+    font-family: 'Rowdies', cursive;
+}
+
+.range-pizza:hover, .range-drinks:hover, .range-cheese:hover, .range-desert:hover{
+    cursor: pointer;
+    transition: transform 1.1s;
+    transform: scale(1.1);
+}
+
+/*<!---End of Ranges-->*/
+
+/*<!-----Start of special features---===>*/
+
+#special-features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: white;
+    margin: 1.2cm;
+}
+.fresh img{
+    width: 210px;
+    height: 200px;
+}
+
+.hygiene img{
+    width: 210px;
+    height: 200px;
+}
+
+.chefs img{
+    width: 210px;
+    height: 200px;
+}
+
+.variety img{
+    width: 210px;
+    height: 200px;
+}
+
+.fresh h1, .hygiene h1, .chefs h1, .variety h1{
+    font-family: 'Fredoka One', cursive;
+}
+
+.fresh p, .hygiene p, .chefs p, .variety p{
+    font-family: 'Caveat', cursive;
+    font-size: large;
+}
+
+.fresh h1:hover, .hygiene h1:hover, .chefs h1:hover, .variety h1:hover{
+    transition: transform 1.5s ease ;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+/*<!-----End of special features---===>*/
+
+/*<!----Start of Food Fusion==========-->*/
+
+h1.ff{
+    text-decoration: underline;
+    font-family: 'Stylish', sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+#food-fusion{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.breakfast{
+    width: 320px;
+    height: 280px;
+    margin: 10px;
+    background-image: url(breakfastre.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breakfast:hover h1{
+    padding: 1cm;
+    background-color: rgb(20, 19, 19);
+    display: block;
+    cursor: pointer;
+}
+
+.breakfast h1{
+    display: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 79px;
+    color: white;
+    font-weight: bold;
+}
+
+.breakfast a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 5px;
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 5cm;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.breakfast a:hover{
+    background-color: black;
+    border: 2px solid orange;
+}
+
+.lunch{
+    width: 320px;
+    height: 280px;
+    margin: 10px;
+    background-image: url(lunchre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.lunch h1{
+    display: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 79px;
+    color: white;
+    font-weight: bold;
+}
+
+.lunch a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 5px;
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 5cm;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.lunch:hover h1{
+    padding: 1cm;
+    background-color: rgb(20, 19, 19);
+    display: block;
+    cursor: pointer;
+}
+
+.lunch a:hover{
+    background-color: black;
+    border: 2px solid orange;
+}
+
+.dinner{
+    width: 320px;
+    height: 280px;
+    margin: 10px;
+    background-image: url(dinnerre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dinner h1{
+    display: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 79px;
+    color: white;
+    font-weight: bold;
+}
+
+.dinner a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 5px;
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 5cm;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.dinner:hover h1{
+    padding: 1cm;
+    background-color: rgb(20, 19, 19);
+    display: block;
+    cursor: pointer;
+}
+
+.dinner a:hover{
+    background-color: black;
+    border: 2px solid orange;
+}
+
+/*<!----End of Food Fusion==========-->*/
+
+/*<!--Start of Dining Experience====-->*/
+
+.experience{
+    padding: 100px;
+    background: url('dinex2.jpg');
+    width: 100%;
+    height: 400px;
+}
+
+.exp-content h4{
+    font-family: 'Stylish', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 23%;
+}
+
+.exp-content h1{
+    color: rgb(255, 64, 137);
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+
+
+/*<!--End of Dining Experience====-->*/
+
+/*<!--Start of photo gallery========-->*/
+
+.pg{
+    font-family: 'Cedarville Cursive', cursive;
+    margin-top: 0.8cm;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+#photo-gallery{
+    margin-top: 0.5cm;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+    rgba(121,9,9,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.pg1{
+    width: 100%;
+    height: 410px;
+    border: 0 solid black;
+    align-items: center;
+}
+
+.p-g{
+    margin-top: 5px;
+    margin-left: 24%;
+    box-shadow: 1px 2px 10px 5px black;
+}
+
+/*Slide show using keyframes*/
+
+/*.pic-pg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 2px 10px 5px black;
+}*/
+
+/*.pic-pg{
+    margin-left: 5.5cm;
+    background-image: url('C-P.jpg');
+    width: 60%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 30s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image: url('F-S.jpg');}
+    16.66%{background-image: url('H.jpg');}
+    33.33%{background-image: url('P-C.jpg');}
+    50.00%{background-image: url('P-M.jpg');}
+    66.66%{background-image: url('S-B.jpg');}
+    83.33%{background-image: url('T-C.jpg');}
+}*/
+
+/*<!--End of photo gallery========-->*/
+
+/*<!--Start of upcoming events====-->*/
+
+.background-ue{
+    background: rgb(23,124,118);
+    background: linear-gradient(0deg, rgba(23,124,118,1) 0%, rgba(119,0,0,1) 100%);
+    width: 100%;
+    height: 17.2cm;
+}
+
+.u-e{
+    background: white;
+    border: 5px solid black;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.upcoming-events{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.fn-img{
+    background-image: url('pp2.jpg');
+    box-shadow: 7px 20px 34px -6px rgba(0,0,0,0.75);
+    width: 235px;
+    height: 200px;
+}
+
+.fantasy-night h1{
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+}
+
+.fantasy-night p, .date-night p, .open-mic p{
+    margin-top: 0.3cm;
+    font-size: 18.5px;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.fantasy-night p{
+    width: 240px;
+    height: 250px;
+}
+
+#under{
+    font-size: 20px;
+}
+
+.date-night h1{
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+}
+
+.dn-img{
+    background-image: url('dn2.jpg');
+    box-shadow: 7px 20px 34px -6px rgba(0,0,0,0.75);
+    width: 235px;
+    height: 200px;
+}
+
+.date-night p{
+    
+    width: 240px;
+    height: 176px;
+}
+
+.open-mic h1{
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+}
+
+.om-img{
+    background-image: url('om2.jpg');
+    box-shadow: 7px 20px 34px -6px rgba(0,0,0,0.75);
+    width: 235px;
+    height: 200px;
+}
+
+.open-mic p{
+    width: 240px;
+    height: 240px;
+}
+
+.fantasy-night a, .date-night a{
+    margin-top: 2cm;
+    background: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    border: 3px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.fantasy-night a, .date-night a{
+    animation: pulsing 3s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsing{
+    0%{
+        opacity: 0.4;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.4;
+    }
+}
+
+.fantasy-night a:hover, .date-night a:hover{
+    background: orange;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+}
+
+/*<!--End of upcoming events====-->*/
+
+/*<!--Start of Updates==========-->*/
+
+.updates{
+    background: url('ub2.jpg');
+    width: 1013px;
+    height: 450px;
+    clip-path: polygon(0 32%, 100% 0%, 100% 70%, 0 100%);
+}
+
+.update p, .update form{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-weight: bold;
+    color: black
+}
+
+.subs{
+    width: 100px;
+    height: fit-content;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+/*<!--End of Updates==========-->*/
+
+/*<!--Start of profiles=======-->*/
+
+.issues{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-weight: 500;
+}
+
+.profiles{
+    background: rgb(201,118,29);
+    background: linear-gradient(0deg, rgba(201,118,29,1) 0%, rgba(34,31,31,1) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.daksh-pic{
+    background: url('daksh1.jpeg');
+    width: 250px;
+    height: 250px;
+}
+
+.aditi-pic{
+    background: url('panda1.jpeg');
+    width: 250px;
+    height: 250px;
+}
+
+.kashish-pic{
+    background: url('kash.jpeg');
+    width: 250px;
+    height: 250px;
+}
+
+.anmol-pic{
+    background: url('anmol.jpg');
+    width: 250px;
+    height: 250px;
+}
+
+.daksh-details p, .aditi-details p, .kashish-details p, .anmol-details p{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-family: 'Pangolin', cursive;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.daksh-details h4, .aditi-details h4, .kashish-details h4, .anmol-details h4{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    font-family: 'Pangolin', cursive;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.daksh-details h2, .aditi-details h2, .kashish-details h2, .anmol-details h2{
+    font-family: 'Lemonada', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.daksh-details h3, .aditi-details h3, .kashish-details h3, .anmol-details h3{
+    font-family: 'Lemonada', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*<!--End of profiles=======-->*/
+
+/*<!--Start of Opening Time==-->*/
+
+.open-time{
+    padding: 10px;
+    background: url('time1.jpg');
+    width: 1010px;
+    height: 400px;
+}
+
+.time h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 5px 3px 2px rgba(186, 190, 142, 1);
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+.schedule h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    background: black;
+    border: 2px solid white;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 38%;
+}
+
+
+.schedule h2{
+    font-family: 'Caveat', cursive;
+    margin-left: 40%;
+    color: white;
+}
+
+/*<!--End of Opening Time==-->*/
+
+/*<!--Start of Explore===-->*/
+
+.explore{
+    background: white;
+    padding: 40px;
+
+}
+
+.ex-content h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.ex-content h2{
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.ex-logo{
+    transition: transform 0.4s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.facebook{
+    background: url('fb1.png');
+    width: 50px;
+    height: 50px;
+}
+
+.insta{
+    background: url('insta1.png');
+    width: 50px;
+    height: 50px;
+}
+
+.twitter{
+    background: url('t1.png');
+    width: 50px;
+    height: 50px;
+}
+
+.in{
+    background: url('in2.png');
+    width: 50px;
+    height: 50px;
+}
+
+
+.facebook:hover, .insta:hover, .twitter:hover, .in:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+/*<!--End of Explore===-->*/
+
+/*<!--Start of location====-->*/
+
+.location{
+    background: url('loc2.jpg');
+    width: 100%;
+    height: 250px;
+}
+
+/*<!--End of location====-->*/
+
+/*<!--Start of footer====-->*/
+
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 250px;
+}
+
+.f-content{
+    padding-top: 60px;
+   text-align: center;
+    width: 40%;
+    height: 250px;
+    float: left;
+}
+
+.f-content h1{
+    font-family: 'Pangolin', cursive;
+    color: orange;
+    font-size: 27px;
+}
+
+.f-content h2{
+    font-family: 'Grenze Gotisch', cursive;
+    color: rgb(250, 215, 150);
+    font-weight: 40;
+    font-size: 22px;
+}
+
+.ff-form{
+    padding-left: 100px;
+    width: 60%;
+    height: 200px;
+    float: right;
+}
+
+.ff-form h1{
+    margin-top: 5px;
+    font-family: 'Pangolin', cursive;
+    color: orange;
+    font-size: 27px;
+}
+
+.ff-form form{
+    padding-left: 2cm;
+}
+
+.solo{
+    font-family: 'Luckiest Guy', cursive;
+    border: 2px solid white;
+    width: fit-content;
+    height: fit-content;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: white;
+    background: black;
+    margin-left: 95px;
+}
+
+.solo:hover{
+    cursor: pointer;
+}
+
+/*<!--End of footer====-->*/

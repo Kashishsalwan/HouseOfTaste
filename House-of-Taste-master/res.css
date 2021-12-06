@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+form{
+    background-color: black;
+    outline: 7px outset rgb(143, 78, 89);
+    width:750px;
+    font-size: 20px;
+    text-decoration-color: orange;
+}
+fieldset{
+    width: 750px;
+    margin-left: 300px;
+}
+legend{
+    font-family: 'Lemonada', cursive;
+    color: rgb(255, 215, 141);
+    font-size: 35px;
+}
+.solo
+    {
+    background-color: ivory;
+    width: 100px;
+    height: 50px;
+    margin-left: 300px;
+    border: 3px solid rgb(255, 215, 142);
+    border-radius: 200px;
+    font-family: 'Sriracha', cursive;
+    font-weight: bold;
+    color: black;
+    background: orange;
+}
+
+.solo:hover{
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Sriracha', cursive;
+    cursor: pointer;
+    
+}
+
+.fname, .p-n, .t-r, .r-t, .date, .time, .email{
+    color: orange;
+    font-family: 'Sriracha', cursive;
+}
